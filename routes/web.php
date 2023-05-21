@@ -25,7 +25,7 @@ Route::get('/games', function () {
     $games->name="far cry 6";
     $games->save();
 */
-    $a = GamesModel::where('name', 'far cry 6')->get();
+    $a = GamesModel::where('name', 'far cry s6')->get();
 
 
 
